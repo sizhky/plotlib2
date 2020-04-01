@@ -6,10 +6,6 @@ import numpy as np
 
 ```
 
-    The autoreload extension is already loaded. To reload it, use:
-      %reload_ext autoreload
-
-
 ## Call any sns/matplotlib plot throught the `plot` function
 Use the function itself as a kwarg with the parameters to be plotted as a tuple
 
@@ -26,7 +22,7 @@ plot(scatter=(np.random.randn(100), np.random.randn(100)))
 
 
 
-    <matplotlib.collections.PathCollection at 0x7efdeda24190>
+    <matplotlib.collections.PathCollection at 0x7fdbbf2e9d50>
 
 
 
@@ -45,7 +41,7 @@ plot(imshow=np.random.randn(500,500)*255,
 
 
 
-    <matplotlib.collections.PathCollection at 0x7efde98b0950>
+    <matplotlib.collections.PathCollection at 0x7fdbbf2e9bd0>
 
 
 
@@ -71,10 +67,6 @@ plot(boxplot={'x': np.random.randn(1000), 'vert': False});
 ![png](images/output_6_1.png)
 
 
-
-![png](images/output_6_2.png)
-
-
 ### Same style for sns plotting as well
 
 
@@ -90,7 +82,7 @@ snsplot(distplot={'a': np.random.randn(1000), 'hist': False, 'kde_kws':{"color":
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x7efde75b12d0>
+    <matplotlib.axes._subplots.AxesSubplot at 0x7fdbbf2a8f90>
 
 
 
@@ -108,14 +100,14 @@ snsplot(relplot={'x':"timepoint", 'y':"signal", 'hue':"event", 'style':"event",
             'kind':"line", 'data':fmri.query("region == 'frontal'")})
 ```
 
-    CPU times: user 2.07 s, sys: 3.35 ms, total: 2.07 s
-    Wall time: 2.07 s
+    CPU times: user 2.11 s, sys: 8.18 ms, total: 2.11 s
+    Wall time: 2.11 s
 
 
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x7efde975aa10>
+    <seaborn.axisgrid.FacetGrid at 0x7fdbbc56b610>
 
 
 
