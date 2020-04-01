@@ -22,7 +22,7 @@ plot(scatter=(np.random.randn(100), np.random.randn(100)))
 
 
 
-    <matplotlib.collections.PathCollection at 0x7fdbbf2e9d50>
+    <matplotlib.collections.PathCollection at 0x7fa83f101610>
 
 
 
@@ -41,7 +41,7 @@ plot(imshow=np.random.randn(500,500)*255,
 
 
 
-    <matplotlib.collections.PathCollection at 0x7fdbbf2e9bd0>
+    <matplotlib.collections.PathCollection at 0x7fa83f028190>
 
 
 
@@ -82,7 +82,7 @@ snsplot(distplot={'a': np.random.randn(1000), 'hist': False, 'kde_kws':{"color":
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x7fdbbf2a8f90>
+    <matplotlib.axes._subplots.AxesSubplot at 0x7fa83efccc50>
 
 
 
@@ -100,14 +100,14 @@ snsplot(relplot={'x':"timepoint", 'y':"signal", 'hue':"event", 'style':"event",
             'kind':"line", 'data':fmri.query("region == 'frontal'")})
 ```
 
-    CPU times: user 2.11 s, sys: 8.18 ms, total: 2.11 s
-    Wall time: 2.11 s
+    CPU times: user 2.06 s, sys: 9.42 ms, total: 2.06 s
+    Wall time: 2.06 s
 
 
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0x7fdbbc56b610>
+    <seaborn.axisgrid.FacetGrid at 0x7fa83cb0a950>
 
 
 
