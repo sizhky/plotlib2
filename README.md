@@ -115,7 +115,7 @@ snsplot(relplot={'x':"timepoint", 'y':"signal", 'hue':"event", 'style':"event",
 ![png](images/output_10_2.png)
 
 
-### Easy for automatic plots
+### Easy for automating plots via code
 * `i` is reserved for axis. 
 
 
